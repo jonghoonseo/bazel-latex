@@ -22,7 +22,7 @@ http_archive(
     name = "bazel_latex",
     sha256 = "<checksum>",
     strip_prefix = "bazel-latex-<release>",
-    url = "https://github.com/ProdriveTechnologies/bazel-latex/archive/v<release>.tar.gz",
+    url = "https://github.com/jonghoonseo/bazel-latex/archive/v<release>.tar.gz",
 )
 
 load("@bazel_latex//:repositories.bzl", "latex_repositories")
